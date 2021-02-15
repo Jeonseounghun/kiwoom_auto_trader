@@ -1069,7 +1069,7 @@ class MyWindow(QWidget):
 
 
 if __name__ == "__main__":
-    data_list = ["2021-01"]
+    data_list = ["2021-02"]
     today_day = datetime.today()
     if today_day.strftime("%Y-%m") in data_list:
         app = QApplication(sys.argv)
