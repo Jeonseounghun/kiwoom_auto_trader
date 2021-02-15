@@ -2,5 +2,6 @@
     "python.linting.pylintArgs": [
         "\"--extension-pkg-whitelist=PyQt5\"",
         "\"python.linting.pylintArgs\": [         \"--extension-pkg-whitelist=PyQt5\"     ]"
-    ]
+    ],
+    "python.formatting.provider": "black"
 }
